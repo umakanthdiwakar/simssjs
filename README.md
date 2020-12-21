@@ -7,3 +7,8 @@ There are quite a few server-side JavaScript runtimes available. However all see
 ## What is this project about
 This project is get server-side JavaScript back to the simpler syntax of ES5 standards, plus provide critical server-side capabilities such as asynchronous execution of functions, HTTP handlers and clients, plus database handling (at least RDBMS to start with).
 The project will provide the ability for users to write JS programs adhering to the good old ES5 syntax, perhaps with underscore.js support, while providing critical extensions on top of a golang backbone.
+
+## Tech Stack
+quick.js is great. But the need for cgo is going to be cumbersome. goja seems a better option given a golang backbone.
+fiber.io seems promising and can power the web and api parts.
+rdbms - will need to provide at least postgres and mysql support.
